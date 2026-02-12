@@ -1,0 +1,32 @@
+CREATE TABLE IF NOT EXISTS materials (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    link TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS schedule (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    course TEXT,
+    day TEXT,
+    time TEXT
+);
+
+CREATE TABLE IF NOT EXISTS assignments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    course TEXT,
+    description TEXT,
+    deadline TEXT
+);
+
+CREATE TABLE IF NOT EXISTS exams (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    course TEXT,
+    exam_date TEXT
+);
+
+CREATE TABLE IF NOT EXISTS instructors (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    contact TEXT
+);
