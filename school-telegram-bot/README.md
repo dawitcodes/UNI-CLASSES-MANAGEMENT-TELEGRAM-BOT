@@ -1,9 +1,8 @@
-## School Telegram Bot
 <p align="center">
   <img src="../school-telegram-bot/assets/cover-image.png" width="700" />
 </p>
 
-<h1 align="center">School Manager Bot</h1>
+<h1 align="center">School Class Manager Bot</h1>
 
 <p align="center">
   An AI-powered Telegram bot that simplifies school class management through automation and smart interactions.
@@ -30,7 +29,7 @@
 
 <p align="center">
   <img src="../school-telegram-bot/assets/screenshots/screenshot-1.png" width="400" />
-  <img src="../school-telegram-bot/assets/screenshots/screenshot-2.png" width="400" />
+  <img src="../school-telegram-bot/assets/screenshots/screenshot-2.png" width="400" height="400"/>
 </p>
 
 
